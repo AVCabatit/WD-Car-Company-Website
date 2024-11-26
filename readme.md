@@ -112,12 +112,9 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
+| Aston Martin Website | Content and Design Reference | https://www.astonmartin.com/en |
+| Pinterest Car Web Design | Design Reference | https://ph.pinterest.com/pin/837599230718407422/ |
+| Daily UI "Book a Test Drive with Bentley" | Design Reference | https://dribbble.com/shots/5306570-Daily-UI-Book-a-Test-Drive-with-Bentley |
+| Inspirational design | Design Reference | https://www.behance.net/gallery/71906055/Inspirational-design/modules/508412953 |
+|  |  |  |
 | How to add a browser tab icon (favicon) for a website? | Used to add a favicon | https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website |
-|-|-|-|
-|-|-|-|
-|-|-|-|
-|-|-|-|
-|-|-|-|
-|-|-|-|
-|-|-|-|
-|-|-|-|

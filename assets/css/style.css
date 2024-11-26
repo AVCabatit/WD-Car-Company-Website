@@ -1,0 +1,15 @@
+body .hero{
+    height: 95.1dvh;
+    overflow: hidden;
+
+    div{
+        justify-content: center;
+    }
+
+    img{
+        width: 100%;
+        position: relative;
+    }
+}
+
+
