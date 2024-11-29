@@ -15,10 +15,12 @@
   </head>
 
   <body>
-    <header>
-      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+
+  <!-- NAVIGATION -->
+    <header class="navigation sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand nav-link active" aria-current="page" href="#">
+          <a class="navbar-brand nav-link active" aria-current="page" href="./index.html">
             <img src="./assets/img/logoAstonMartin.png" alt="" class="img-fluid" width="100">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,37 +29,150 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class=" container-fluid d-flex justify-content-end navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="./pages/About/index.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="./pages/Contacts/index.html">Contact Us</a>
               </li>
+
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Products
                 </a>
-                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">DB12</a></li>
-                  <li><a class="dropdown-item" href="#">Valiant</a></li>
-                  <li><a class="dropdown-item" href="#">Vanquish</a></li>
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./pages/productsAllVehicles/index.html">All Vehicles</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./pages/productsDb12/index.html">DB12</a></li>
+                  <li><a class="dropdown-item" href="./pages/productsValiant/index.html">Valiant</a></li>
+                  <li><a class="dropdown-item" href="./pages/productsVanquish/index.html">Vanquish</a></li>
                 </ul>
               </li>
             </ul>
           </div>
         </div>
-      </nav>  
+      </nav>
     </header>
-    
-    <section class="hero container-fluid p-0">
-      <div class="container-fluid p-0 overflow-hidden d-flex justify-content-center">
-        <div class="container-fluid p-0 d-flex justify-content-center">
-        <img src="./assets/img/carValhallaFront.avif" alt="" class="img-fluid translate-">
+
+  <!-- HERO? -->
+  <section>
+    <div class="hero container-fluid p-0 overflow-hidden d-flex justify-content-center">
+      <div class="image container-fluid p-0 ">
+        <img src="./assets/img/carValhallaFront.avif" alt="" class="img-fluid">
+      </div>
+      <div class="text container-fluid p-3 position-absolute align-self-center">
+      </div>
+      <div class="container-fluid p-3 position-absolute align-self-center">
+        <h2 class="text-center">INTENSITY DRIVEN</h2>
+        <h1 class="text-center">ASTON MARTIN</h1>
+        <p class="container-fluid text-center lead w-75 mt-5 pt-3">Style, luxury, performance, and exclusivity all in one.</p>
+        <a href="./pages/productsAllVehicles/index.html" class="btn btn-dark p-3 container w-25 d-flex align-self-center justify-content-center">EXPLORE VEHICLES</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section>
+    <div class="quote container-fluid p-0 overflow-hidden d-flex justify-content-center">
+      <div class="image container p-0 ">
+        <img src="./assets/img/carValhallaTailBack.avif" alt="" class="img-fluid">
+      </div>
+      <div class="container-fluid p-3 position-absolute align-self-start">
+        <hr>
+      </div>
+      <div class="container-fluid p-3 position-absolute align-self-center">
+        <p class="container-fluid text-center lead w-75 mt-5 pt-3">We have an unstoppabe quest for profound gratification. A desire to capture the pure human emotion of the driving experience.</p>
+        <p class="container-fluid lead w-75 mt-5 pt-3">— Aston Martin</p>
+      </div>
+      <div class="container-fluid p-3 position-absolute align-self-end">
+        <hr>
+      </div>
+    </div>
+  </section>
+
+   <!-- VISION -->
+   <section>
+    <div class="vision container-fluid p-0 overflow-hidden d-flex justify-content-center align-content-center">
+      <div class="container-fluid p-3 position-relative align-self-center">
+        <div class="row mb-5">
+          <div class="col-sm-12 col-lg-3 container-fluid p-5">
+            <div class="card h-100 text-center">
+              <h5 class="card-title mt-2">BRAND</h5>
+              <img src="./assets/img/picBrand.webp" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <p class="card-text">Underpinned by a strong and loyal customer base, and unique position transcending ultra-luxury and high-performance, we have a clear vision to become the world’s most desirable ultra-luxury British performance brand.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-3 container-fluid p-5">
+            <div class="card h-100 text-center">
+              <h5 class="card-title mt-2">PURSUIT OF INNOVATION</h5>
+              <img src="./assets/img/picInnovation.webp" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <p class="card-text">Create a breathtaking and comprehensive core portfolio across front-engine, SUV and mid-engine, enhanced by a strategically aligned Specials programme.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-3 container-fluid p-5">
+            <div class="card h-100 text-center">
+              <h5 class="card-title mt-2">GREEN RACING</h5>
+              <img src="./assets/img/picRaceGreen.webp" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <p class="card-text">Deepen the integration of sustainability into our business and improving our performance through our Racing. Green. strategy.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-3 container-fluid p-5">
+            <div class="card h-100 text-center">
+              <h5 class="card-title mt-2">TALENT</h5>
+              <img src="./assets/img/picTalent.webp" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <p class="card-text">Attract and retain a talented and skillful team with experience and understanding of the ultra-luxury automotive sector, focused on building a collaborative and cross-functional way of working.</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-    </section> 
+    </div>
+  </section>
 
+    <!-- FOOTER -->
     <footer>
-
+      <div class="footer-contacts p-0 container-fluid d-flex align-items-center bg-dark pt-5 p">
+        <div class="d-flex justify-content-center align-items-center">
+          <img src="./assets/img/logoAstonMartin.png" alt="" class="logo img-fluid">
+        </div>
+        <h1>ASTON MARTIN</h1>
+        <br>
+        <div class="w-25 mb-5 d-flex justify-content-around ">
+          <a href="https://instagram.com/astonmartin" target="_blank">
+            <img class="icon" src="./assets/img/iconInstagram.svg" alt="">
+          </a>
+          <a href="https://www.facebook.com/astonmartin/" target="_blank">
+            <img class="icon" src="./assets/img/iconFacebook.svg" alt="">
+          </a>
+          <a href="https://twitter.com/astonmartin" target="_blank">
+            <img class="icon" src="./assets/img/iconTwitter.svg" alt="">
+          </a>
+          <a href="https://www.youtube.com/user/AstonMartin" target="_blank">
+            <img class="icon" src="./assets/img/iconYoutube.svg" alt="">
+          </a>
+          <a href="https://www.linkedin.com/company/aston-martin-lagonda-ltd/" target="_blank">
+            <img class="icon" src="./assets/img/iconLinkedin.svg" alt="">
+          </a>
+          <a href="https://www.tiktok.com/@astonmartin?lang=en" target="_blank">
+            <img class="icon" src="./assets/img/iconTiktok.svg" alt="">
+          </a>
+        </div>
+        <div class="text-center p-0 d-flex align-items-end">
+          <p class="small m-0">
+            © Aston Martin 2024
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
